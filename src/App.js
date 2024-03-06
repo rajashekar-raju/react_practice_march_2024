@@ -1,11 +1,11 @@
 import React from "react";
-import TodoApp from "./components/TodoApp";
+import FormValidation from "./components/FormValidation";
 
 function App() {
  
   return (
     <div>
-      <TodoApp/>
+       <FormValidation/>
     </div>
   )
 
