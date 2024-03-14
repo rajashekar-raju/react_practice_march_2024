@@ -1,12 +1,14 @@
-import React from "react";
-import Main from "./components/passing handler/Main";
+import React, { useState } from "react";
+import Practice from "./components/useState/Practice";
 
 function App() {
- 
+
   return (
-    <div>
-        <Main/>
-    </div>
+    
+      <div>
+          <Practice/>
+      </div>
+    
   )
 
 }
