@@ -1,18 +1,12 @@
-import React, { useState } from "react";
-import Practice from "./components/useState/Practice";
-import SearchArrayItems from "./components/useState/SearchArrayItems";
+import React from 'react';
+import UseMemoHook from './components/UseMemoHook';
 
-function App() {
-
+const App = () => {
   return (
-    
-      <div>
-          {/* <Practice/> */}
-          <SearchArrayItems/>
-      </div>
-    
-  )
-
-}
+    <div>
+      <UseMemoHook/>
+    </div>
+  );
+};
 
 export default App;
